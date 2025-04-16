@@ -35,3 +35,12 @@ git init
 ```
 
 per inizializzare il repository. Aggiungo anche il file `.gitignore` per escludere le cartelle `.vscode` e `node_modules`.
+
+# Se copio il progetto o lo clono dal repository
+
+Una volta copiato basterà lanciare `npm i` oppure `npm install` per reinstallare i moduli necessari.
+
+
+- Aggiungere script `dev` che riavvia il server quando ci sono modifiche
+- Aggiungere le varie rotte per i metodi che rispondono `Hello POST`, `Hello Put`, ecc
+- Aggiungere il file di test .http per provare le rotte che avete definito
